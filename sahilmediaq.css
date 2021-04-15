@@ -2,9 +2,9 @@
   /* ////section////
 /////start 2nd section/// */
   .f-s {
-    padding-left: 40px;
-    height: auto;
-    width: auto;
+    /* padding-left: 40px; */
+    /* height: auto;
+    width: auto; */
   }
 
   /* //////third//// */
@@ -50,16 +50,28 @@
   .s-s-m2d1 {
     margin-right: 5%;
   }
+  .s-himgg{
+    font-size: .8em;
+  }
 }
 @media screen and (max-width: 970px) {
   .navbar div h1 {
     font-size: 1.5em;
   }
 }
+
 @media screen and (max-width: 820px) {
-  .navbar div {
-    font-size: 0.9em;
-  }
+.navbar{
+  display: flex;
+  font-size: 1.3em;
+  flex-direction: column;
+
+} 
+.navbar div{
+  text-align: center;
+margin;
+}
+ 
   .s-s-m2dd {
     font-size: 0.8em;
   }
@@ -75,12 +87,13 @@
   }
 }
 @media screen and (max-width: 700px) {
-  .navbar{
-    flex-direction:column ;
-    text-align: center;
-  }
+  
   .s-s-m2dd {
-    transform: translateY(-20%);
+    transform: translateY(-17%);
+  line-height: 1vh;
+  }
+  .s-s-m1d img{
+    height: 69vh;
   }
   .s-s-m2d .s-s-m2dd {
     font-size: 0.8em;
@@ -91,6 +104,7 @@
   .s-s-sqares {
     width: 30%;
   }
+  
 }
 @media screen and (max-width: 640px) {
   .s-s-md {
@@ -101,6 +115,11 @@
   }
   .s-s-m2d {
     width: 99%;
+      margin-top: 11%;
+    }
+  
+  .s-s-m2dd{
+    margin-top: 3%;
   }
   .s-s-m2dd,
   .s-s-m2d1p {
@@ -141,50 +160,47 @@
   .n-s-class {
     width: 97%;
   }
-textarea{
-  height: 130px;
-}
+  textarea {
+    height: 130px;
+  }
   .n-s-classb {
     width: 97%;
   }
   .s-s-sqares {
     width: 48%;
   }
- 
- 
+  
 }
 @media screen and (max-width: 500px) {
   .s-fi-img {
     width: 100%;
   }
-  .s-s-m2d1p{
+  .s-s-m2d1p {
     font-size: 1em;
   }
-  .s-s-m2d1{
+  .s-s-m2d1 {
     font-size: 1em;
   }
-  .f-s-list{
+  .f-s-list {
     font-size: 1em;
   }
 }
-@media screen and (max-width: 380px){
-  .f-s-list{
+@media screen and (max-width: 380px) {
+  .f-s-list {
     font-size: 0.7em;
   }
-  .s-s-m2dd{
+  .s-s-m2dd {
     flex-direction: column;
     height: auto;
-    
   }
-  .s-s-m2d1p{
+  .s-s-m2d1p {
     width: 98%;
     padding-top: 9%;
     font-size: 1.2em;
   }
-  .s-s-m2d1{
+  .s-s-m2d1 {
     width: 98%;
     padding-top: 9%;
     font-size: 1.2em;
   }
-
 }
