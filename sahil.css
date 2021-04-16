@@ -453,8 +453,11 @@ start///////////////////////////////////////////
   color: #ffffff;
   margin-top: 10px;
 }
-.se-s-b {
-  height: 30px;
+.se-s-b{
+  padding-top: 1.5%;
+}
+.se-s-b p{
+  height: 7px;
   font-size: 1em;
   border-left: 3px solid red;
 
